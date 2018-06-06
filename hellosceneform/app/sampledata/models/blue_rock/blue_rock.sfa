@@ -1,0 +1,61 @@
+{
+   materials: [
+      {
+         name: "Material.16",
+         parameters: [
+            {
+               baseColor: "blue_rock",
+            },
+            {
+               baseColorTint: [
+                  0.64000000000000001,
+                  0.64000000000000001,
+                  0.64000000000000001,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.14280000000000001,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      file: "sampledata/models/blue_rock/blue_rock.obj",
+      name: "blue_rock",
+      scale: 0.016028999999999999,
+      suggested_collision: {
+         center: {
+            x: 0,
+            y: 0,
+            z: 0,
+         },
+         size: {
+            x: 1,
+            y: 1,
+            z: 1,
+         },
+         type: "Box",
+      },
+   },
+   samplers: [
+      {
+         file: "sampledata/models/blue_rock\\blue_rock.png",
+         name: "blue_rock",
+         pipeline_name: "blue_rock.png",
+      },
+   ],
+   version: "0.51:1",
+}

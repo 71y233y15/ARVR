@@ -1,0 +1,61 @@
+{
+   materials: [
+      {
+         name: "None",
+         parameters: [
+            {
+               baseColor: "orange",
+            },
+            {
+               baseColorTint: [
+                  0.80000000000000004,
+                  0.80000000000000004,
+                  0.80000000000000004,
+                  1,
+               ],
+            },
+            {
+               metallic: 1,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      file: "sampledata/models/orange/orange.obj",
+      name: "orange",
+      scale: 0.10153000000000005,
+      suggested_collision: {
+         center: {
+            x: 0,
+            y: 0,
+            z: 0,
+         },
+         size: {
+            x: 1,
+            y: 1,
+            z: 1,
+         },
+         type: "Box",
+      },
+   },
+   samplers: [
+      {
+         file: "sampledata/models/orange\\orange.png",
+         name: "orange",
+         pipeline_name: "orange.png",
+      },
+   ],
+   version: "0.51:1",
+}

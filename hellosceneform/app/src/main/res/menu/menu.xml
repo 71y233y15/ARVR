@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/build1"
+            android:checked="true"
+            android:title="建築1" />
+
+        <item
+            android:id="@+id/build2"
+            android:title="建築2" />
+
+        <item
+            android:id="@+id/build3"
+            android:title="建築3" />
+
+        <item
+            android:id="@+id/build4"
+            android:title="建築4" />
+    </group>
+</menu>
